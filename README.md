@@ -1,5 +1,4 @@
-[![Docker Image CI](https://github.com/samuel-kuhn/MM-Dashboard/actions/workflows/docker-image.yml/badge.svg)](https://github.com/samuel-kuhn/MM-Dashboard/actions/workflows/docker-image.yml)
-
+[![Docker Build and Publish](https://github.com/samuel-kuhn/MM-Dashboard/actions/workflows/docker-image.yml/badge.svg)](https://github.com/samuel-kuhn/MM-Dashboard/actions/workflows/docker-image.yml)
 
 
 
@@ -28,8 +27,6 @@ docker compose up -d
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 
