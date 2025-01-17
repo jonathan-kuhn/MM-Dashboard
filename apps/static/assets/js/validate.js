@@ -1,15 +1,3 @@
-function validateName() {
-  let name = document.getElementById("name").value;
-  const pattern = /^[a-zA-Z0-9_.-]+$/;
-  if (!name || name === "" || name == null) {
-    showError("No name specified!", "name");
-  } else if (!pattern.test(name)) {
-    showError("Invalid Name!", "name");
-  } else {
-    resetError("name");
-  }
-}
-
 async function validateVersion() {
   try {
     let version = document.getElementById("VERSION").value;
